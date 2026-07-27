@@ -1,7 +1,25 @@
 aid: graphicly
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/graphicly.png
 name: Graphicly
-description: Graphicly is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Graphicly was a digital-comics and e-book distribution and self-publishing platform, founded
+  around 2009 in Austin, Texas, that let independent creators and publishers convert their work and
+  distribute it across major reading platforms including Amazon Kindle, Apple iBooks, Barnes & Noble Nook,
+  and Google Play. Backed by 500 Startups (500 Global) among other investors, the company was acquired by
+  Blurb in 2014 and its distribution service was subsequently discontinued. The graphicly.com domain no
+  longer serves a live product, and the company exposes no public developer portal, documentation, or API
+  surface. This profile is retained in the API Evangelist network for portfolio-graph and historical
+  reference; enrichment found no live API, SDK, event, or security surface to harvest.
 url: https://raw.githubusercontent.com/api-evangelist/graphicly/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +29,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Digital Comics
+- E-Books
+- Self-Publishing
+- Content Distribution
+- Media
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +47,8 @@ maintainers:
 common:
 - type: Website
   url: https://graphicly.com
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
