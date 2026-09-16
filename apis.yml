@@ -24,13 +24,13 @@ accessModel:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/graphicly.png
 name: Graphicly
 description: Graphicly was a digital-comics and e-book distribution and self-publishing platform, founded
-  around 2009 in Austin, Texas, that let independent creators and publishers convert their work and
-  distribute it across major reading platforms including Amazon Kindle, Apple iBooks, Barnes & Noble Nook,
-  and Google Play. Backed by 500 Startups (500 Global) among other investors, the company was acquired by
-  Blurb in 2014 and its distribution service was subsequently discontinued. The graphicly.com domain no
-  longer serves a live product, and the company exposes no public developer portal, documentation, or API
-  surface. This profile is retained in the API Evangelist network for portfolio-graph and historical
-  reference; enrichment found no live API, SDK, event, or security surface to harvest.
+  around 2009 in Austin, Texas, that let independent creators and publishers convert their work and distribute
+  it across major reading platforms including Amazon Kindle, Apple iBooks, Barnes & Noble Nook, and Google
+  Play. Backed by 500 Startups (500 Global) among other investors, the company was acquired by Blurb in
+  2014 and its distribution service was subsequently discontinued. The graphicly.com domain no longer
+  serves a live product, and the company exposes no public developer portal, documentation, or API surface.
+  This profile is retained in the API Evangelist network for portfolio-graph and historical reference;
+  enrichment found no live API, SDK, event, or security surface to harvest.
 url: https://raw.githubusercontent.com/api-evangelist/graphicly/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -40,7 +40,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-19'
+modified: '2026-09-15'
 tags:
 - Company
 - Digital Comics
@@ -68,7 +68,8 @@ common:
   url: https://apis.io/providers/blurb/
   name: Blurb
   x-relationship: acquired
-  x-evidence: "Backed by 500 Startups (500 Global) among other investors, the company was acquired by Blurb in 2014 and its distribution service was subsequently discontinued."
+  x-evidence: Backed by 500 Startups (500 Global) among other investors, the company was acquired by Blurb
+    in 2014 and its distribution service was subsequently discontinued.
 - type: Website
   url: https://graphicly.com
 x-enrichment:
@@ -76,3 +77,4 @@ x-enrichment:
   status: backfilled
   pass: local-v1
   note: backfilled from .gitignore signal + verified work evidence
+x-status: defunct
